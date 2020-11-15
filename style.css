@@ -39,13 +39,13 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    box-shadow: 15px 15px 0 0 red;
+    box-shadow: 15px 15px 0 0 fuchsia;
 }
 /*Credits to Omid Rasouli -  https://css-tricks.com/the-shapes-of-css/*/
 
 #diamond {
     border-style: solid;
-    border-color: transparent transparent red transparent;
+    border-color: transparent transparent fuchsia transparent;
     border-width: 0 25px 25px 25px;
     height: 0;
     width: 50px;
@@ -62,14 +62,14 @@ body {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: red transparent transparent transparent;
+    border-color: fuchsia transparent transparent transparent;
     border-width: 70px 50px 0 50px;
 }
 /*Credits to Alexander Futekov -  https://css-tricks.com/the-shapes-of-css/ */
 
 .soundobj {
     padding: 50px;
-    background-color: green;
+    background-color: black;
     transition: transform .2s; /* Animation */
     width: 200px;
     height: 200px;
