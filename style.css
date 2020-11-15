@@ -9,6 +9,8 @@ body {
     text-decoration: none;
     width: 20%;
     text-align: center;
+    display: flex;
+    float: top;
 }
 
 #heart {
