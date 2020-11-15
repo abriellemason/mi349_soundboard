@@ -1,8 +1,8 @@
 body {
     top: 0;
-    margin: 10px;
+    margin: 0;
     overflow: visible;
-    float: top;
+    float: left;
     padding: 40px;
     background-color: #000;
     text-decoration: none;
@@ -10,6 +10,10 @@ body {
     text-align: center;
     display: flex;
     float: top;
+}
+
+button {
+    padding: 20px;
 }
 
 #heart {
