@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     overflow: visible;
-    float: left;
     padding: 40px;
     background-color: #000;
     text-decoration: none;
     width: 50%;
     text-align: center;
-
+    display: flex;
+    float: top;
 }
 
 button {
@@ -17,7 +17,6 @@ button {
     padding: 40px; 
     float:left; 
     margin-right:10px;
-    display: flex;
 }
 
 #heart {
