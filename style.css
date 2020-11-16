@@ -1,24 +1,27 @@
 body {
-    top: 0;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
-    padding: 40px;
     background-color: #000;
+}
+    /*overflow: visible;
     text-decoration: none;
     width: 75%;
     text-align: center;
     display: flex;
     float: top;
-}
+    padding-top: 50px;
+}*/
 
 button {
-    background-repeat:no-repeat;
-    float:left; 
-    margin-right:10px;
+    display: flex;
+    flex: column;
+    margin: 30px;
 }
 
 #heart {
+    background: orange;
+    border-radius: 90%;
+}
+
+/*#heart {
     position: relative;
     background-color: black;
     width: 100px;
@@ -37,6 +40,7 @@ button {
         border-radius: 50px 50px 0 0;
         transform: rotate(-45deg);
         transform-origin: 0 100%;
+        border-color: black;
     }
 
 #heart:after {
@@ -46,39 +50,53 @@ button {
 }
 /*Credits to Nicolas Gallagher - https://css-tricks.com/the-shapes-of-css/ */
 
-#moon {
-    width: 80px;
-    height: 80px;
+#timer {
+    background: cyan;
+    border-radius: 90%;
+}
+
+/*#moon {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    box-shadow: 15px 15px 0 0 fuchsia;
+    border-color: black;
+    box-shadow: 30px 0px 0 0 fuchsia;
 }
 /*Credits to Omid Rasouli -  https://css-tricks.com/the-shapes-of-css/*/
 
-#diamond {
-    border-style: solid;
-    border-color: transparent transparent fuchsia transparent;
-    border-width: 0 25px 25px 25px;
-    height: 0;
-    width: 50px;
-    box-sizing: content-box;
+#sewing {
+    background: greenyellow;
+    border-radius: 90%;
+}
+
+/*#infinity {
     position: relative;
-    margin: 20px 0 50px 0;
-}
-
-#diamond:after {
+    width: 115px;
+    height: 100px;
+    box-sizing: content-box;
+  }
+  #infinity:before,
+  #infinity:after {
     content: "";
+    box-sizing: content-box;
     position: absolute;
-    top: 25px;
-    left: -25px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: fuchsia transparent transparent transparent;
-    border-width: 70px 50px 0 50px;
-}
-/*Credits to Alexander Futekov -  https://css-tricks.com/the-shapes-of-css/ */
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid fuchsia;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+  }
+  #infinity:after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
+  }
+Credits go to https://css-tricks.com/the-shapes-of-css/ */
 
-.soundobj {
+.audio-b {
     padding: 50px;
     background-color: black;
     transition: transform .2s; /* Animation */
@@ -87,7 +105,7 @@ button {
     margin: 0 auto;
   }
   
-  .soundobj:hover {
+  .audio-b:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
   /* Credits for zoom on hover go to https://www.w3schools.com/howto/howto_css_zoom_hover.asp */

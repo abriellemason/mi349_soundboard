@@ -7,14 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p onmouseover="PlaySound('soundobj')" 
-    onmouseout="StopSound('soundobj')"></p>
+    <!--<p onmouseover="PlaySound('heart-a')" 
+    onmouseout="StopSound('heart-a')"></p>
+    
+    <button class="soundobj" id="heart"><audio id="hearta" src="heartbeat1.wav" onmouseenter="playAudio()"></audio></button>
 
-    <button class='soundobj' id='heart' src='heartbeat1.wav'></button>
+    <button class="soundobj" id="moon"><audio id="moona" src="timer.wav" onmouseenter="playAudio()"></audio></button>
 
-    <button class='soundobj' id='moon' src='timer.wav'></button>
+    <button class="soundobj" id="circle"><audio id="classa" src="sewing3.wav" onmouseenter="playAudio()"></audio ></button>
 
-    <button class='soundobj' id='diamond' src='sewing3.wav'></button>
+    <script src="soundboard.js"></script> -->
+
+    <div class="audios">
+        <button class="audio-b" id="heart" onmouseover="playHeart()" onmouseout="stopHeart()">
+            <audio id="heart-a" src="heartbeat1.wav"></audio>
+        </button>
+       
+        <button class="audio-b" id="timer" onmouseover="playTimer()" onmouseout="stopTimer()">
+            <audio id="timer-a" src="timer.wav"></audio>
+        </button>
+
+        <button class="audio-b" id="sewing" onmouseover="playSewing()" onmouseout="stopSewing()">
+            <audio id="sewing-a" src="sewing3.wav"></audio>
+        </button>
+    </div>
 
     <script src="soundboard.js"></script>
 </body>
